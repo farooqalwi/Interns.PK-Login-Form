@@ -1,0 +1,80 @@
+body, html{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+body{
+    background-color: #589ed9;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+#container{
+    text-align: center;
+    width: 220px;
+    margin: 75px auto;
+    color: #fff;
+}
+
+#header .logo{
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+#header h1{
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+#loginform input{
+    width: 100%;
+    margin: 0;
+    font-size: 13px;
+    color: #2c3e50;
+    padding: 15px 0;
+    border: none;
+}
+
+#loginform .inputfield1{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 0;
+    text-indent: 20px;
+    margin-top: 15px;
+}
+
+#loginform .inputfield2{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    text-indent: 20px;
+    border-top: 1px solid #ccc;
+}
+
+#loginform .btnSubmit{
+    border-radius: 6px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 0;
+    background-color: #2186d4;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+}
+
+#loginform .btnSubmit:hover{
+    background-color: #22699e;
+    cursor: pointer;
+}
+
+#footer p a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+
